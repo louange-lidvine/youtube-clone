@@ -14,9 +14,16 @@
     /* font-weight: bold; */
     
 }
+.comment,.views{
+    font-weight:lighter;
+}
+.views span{
+    display: block;
+
+}
 
 body {
-    background-color:rgb(25, 21, 21);
+    background-color: rgb(18, 17, 17);;
 }
 
 ::-webkit-scrollbar{
@@ -25,7 +32,7 @@ body {
 }
 
 nav {
-    background-color: rgb(25, 21, 21);
+    background-color: rgb(18, 17, 17);
     height: 500px;
     width: 200px;
     color: white;
@@ -50,7 +57,7 @@ nav a {
 
 .headers {
 
-    background-color: rgb(25, 21, 21);
+    background-color: rgb(18, 17, 17);;
     width: 100%;
     height: 87px;
     margin-right: auto;
@@ -71,11 +78,11 @@ nav a {
 
 
 } 
-.flex{
-    /* position: absolute;
-    top: 30; */
+/* .flex{
+    position: absolute;
+    top: 30;
    
-}
+} */
 
 .begin i,
 .three i {
@@ -98,10 +105,14 @@ hr {
     list-style: none;
 
 }
+.bars li{
+    border-radius: 18px;
+}
 
 .bars a:hover {
     cursor: pointer;
     background-color: #909090;
+    border-radius: 18px;
 }
 .youtube h2{
     font-family: 'Oswald', sans-serif;
@@ -115,7 +126,7 @@ hr {
 }
 .btns:hover{
     cursor: pointer;
-    color: ;
+    color: rgb(134, 136, 137);
 }
 
 .bars {
@@ -129,7 +140,7 @@ width: fit-content;
 height: fit-content; 
 position: absolute;
 display: flex;
-/* margin-left: 5px; */ */
+/* margin-left: 5px; */
 }
 
 .three {
@@ -235,10 +246,7 @@ li a .fa{
  
     
 }
-.search1 input:hover{
-   
 
-}
 .search1 fa{
     position: relative;
     float: right;
@@ -312,7 +320,7 @@ section {
     padding-left: 10px;
     /* position: fixed; */
     padding-top: 40px;
-    background-color: black;
+    background-color:  rgb(18, 17, 17);;
     height: 492px;
     bottom:0px;   
     vertical-align: text-top;
@@ -360,9 +368,12 @@ li:hover{
 }
 
 .btns{
-    position: relative;
+    position: absolute;
     display: block;
     height: 100px;
+    background-color:  rgb(18, 17, 17);;
+   
+
   
 }
 
@@ -416,7 +427,12 @@ li:hover{
     
 } */
 
-
+i:hover{
+    cursor: pointer;
+}
+.name:hover{
+    cursor: pointer;
+}
 .btn {
     margin-top: 50px;
     margin-left: 10px;
@@ -425,6 +441,8 @@ li:hover{
     border-radius: 20px;
     border: none;
     padding: 5px 20px;
+   
+
 
 }
 
@@ -444,38 +462,42 @@ button .fas {
 }
 
 .btns {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    
     justify-content: flex-start;
     align-items: flex-start;
-    border-radius: 30px;
+    border-radius: 15px;
     justify-content: space-around;
-    /* margin: auto; */
-    /* background-color: aqua; */
-    display: block;
+     display: block;
     position: relative;
-    top: 80px;
-    /* left: 180px; */
+    /* top: 80px; */
     overflow-x: scroll;
-     margin-right: 15px;
-    
+     /* margin-right: 15px; */
+     margin-top:80px;
+    margin-right: 50px;
+    color: white;
+    font-weight: bolder;
+    padding: 30ox;
+
 
     
    
     
 }
+.btn:hover{
+    background-color: black;
+}
 
 
 .btn{
     margin-bottom:20px;
-    background-color: #615959;
+    background-color: black;
     color: white;
 }
 
 
 .btn:hover {
     cursor: pointer;
-    background-color: #786f6f;
+    font-weight:bold ;
 
 
 }
@@ -506,6 +528,7 @@ icons{
    overflow-x: hidden;
    /* height: calc(100vh-300px); */
   bottom:40px;
+  background-color:  rgb(18, 17, 17);;
 }
 .pictures,.vertical{
     display: flex;
@@ -558,6 +581,12 @@ img,p{
 } */
 /* .
  */
+finale  :hover{
+    background-color: #6d5b5b;
+    display: block;
+    cursor: pointer;
+
+ }
 .research{
     
    display:flex;
@@ -565,6 +594,10 @@ img,p{
    gap:0px 11px;
 
 
+
+}
+button:hover{
+    cursor: pointer;
 
 }
 .video-preview a img{
@@ -639,17 +672,14 @@ img,p{
 i{
     list-style: none;
 }
-.hidden-content {
-  
- 
-    
-    /* height:100px ; */
-    /* width: fit-content; */
-    /* background-color: grey; */
-}
-/* .paragraph:hover{
+/* .hidden-content {
+    height:100px ; 
+    width: fit-content;
+    background-color: grey;
+
+.paragraph:hover{
      background-color: grey;
-} */
+}  */
 
 li{
     text-decoration: none;
@@ -673,4 +703,10 @@ video,img{
 }
 h2{
     margin-bottom: 10px;
+}
+.finale p:hover{
+    cursor: pointer;
+
+    background-color: #6d5b5b;  
+    border-radius: 18PX;
 }
