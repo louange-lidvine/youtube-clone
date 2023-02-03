@@ -1,0 +1,676 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@100&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@100&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    
+}
+
+body {
+    background-color:rgb(25, 21, 21);
+}
+
+::-webkit-scrollbar{
+    display: none
+    ;
+}
+
+nav {
+    background-color: rgb(25, 21, 21);
+    height: 500px;
+    width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    top: 0;
+    position: relative;
+
+
+
+}
+
+nav a {
+    color: blueviolet;
+
+
+
+
+}
+
+.headers {
+
+    background-color: rgb(25, 21, 21);
+    width: 100%;
+    height: 87px;
+    margin-right: auto;
+    
+    align-items: center;
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    justify-content: center;
+    
+   
+
+    position: fixed;
+   
+   
+
+
+} 
+.flex{
+    /* position: absolute;
+    top: 30; */
+   
+}
+
+.begin i,
+.three i {
+    color: white;
+
+
+}
+
+hr {
+    color: gray;
+
+
+}
+
+.bars a {
+    margin-bottom: 10px;
+    color: white;
+    line-height: 3.5;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.bars a:hover {
+    cursor: pointer;
+    background-color: #909090;
+}
+.youtube h2{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.youtube i {
+    color: red;
+    
+
+}
+.btns:hover{
+    cursor: pointer;
+    color: ;
+}
+
+.bars {
+    list-style: none;
+}
+
+.head {
+    
+left:0px;
+width: fit-content;
+height: fit-content; 
+position: absolute;
+display: flex;
+/* margin-left: 5px; */ */
+}
+
+.three {
+    margin-top: 8px;
+}
+
+i {
+    color: #909090;
+    margin-right: 10px;
+}
+
+/* .searches {
+    justify-content: center;
+    width: 399.33px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 300px;
+    background-color: white;
+    /* background-position: center; */
+    /* background-size: cover;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-left: 30px; */
+
+ 
+
+
+
+
+
+.begin {
+    display: none;
+}
+
+button {
+    background-color: aliceblue;
+    float: right;
+    text-align: center;
+    align-items: center;
+
+
+
+}
+video {
+    /* z-index: -10;  */
+    width: 100%;
+    height:5%;
+    border-radius: 30px;
+   
+
+
+} 
+li a .fa{
+    list-style:none;
+}
+
+.record {
+    margin-right: 90px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.search1 input[type="text"] {
+    color: white;
+    /* width: 350px;
+    height: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    border: none;
+    margin-left: 3px; */
+
+}
+
+.search1 {
+   
+    background-color: transparent;
+     height: 45px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-right: 300px;
+    padding-left: 10px;
+    border-radius: 23px;
+    position: relative;
+    color: white;
+    border: 2px solid white;
+
+    align-content: center;
+    justify-content: center;
+
+}
+ input{
+    border: none;
+    outline: none;
+    box-shadow: 0,0,0,0.1;
+    background: transparent;
+    transition:0.8s;
+    
+   
+ 
+    
+}
+.search1 input:hover{
+   
+
+}
+.search1 fa{
+    position: relative;
+    float: right;
+    margin-left: 30px;
+    justify-content: flex-end;
+   
+}
+
+.name {
+    background-color:blue;
+    color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* .icon {
+    display: flex;
+    align-items: left;
+    justify-self: start;
+    position: left;
+    text-align: end;
+    margin-left: 600px;
+    justify-content: space-between;
+
+} */
+
+.record,
+section {
+    float: right;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.record i .fas{
+    color: white;
+}
+
+.pictures {
+    /* display: flex;
+    flex-wrap: wrap;  */
+    background-position: center;
+     background-size: cover;
+    margin-top: 180px; 
+   margin-left: 200PX;
+ 
+     /* display: flex;
+    flex-wrap: wrap; */
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); */
+    
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+   
+
+    
+
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);  */
+     /* grid-template-rows: repeat(4, 1fr); */
+    
+    gap: 10px;  
+    position: fixed;
+    /* bottom: 0px; */
+    
+
+}
+
+.pictures{
+    padding-left: 10px;
+    /* position: fixed; */
+    padding-top: 40px;
+    background-color: black;
+    height: 492px;
+    bottom:0px;   
+    vertical-align: text-top;
+    gap:30px;
+  
+  display: flex;
+  grid-template-columns: repeat(2,1fr);
+  font-weight: bolder; 
+   flex-wrap: wrap;
+   flex-wrap: wrap;
+  /* flex-direction: row; */
+  /* justify-content: flex-start;
+  position: fixed; */
+
+}
+
+/* .tools,
+.pictures {
+    display: flex;
+    flex-direction: row;
+
+} */
+
+
+
+video {
+    height: 200px;
+    width: 318px;
+    border-radius: 5px;
+
+}
+
+.tools {
+    display: flex;
+    flex-direction: row;
+
+}
+li:hover{
+    background-color: #909090;
+    display: block
+    ;
+}
+.fas fa{
+    font-size: larger;
+}
+
+.btns{
+    position: relative;
+    display: block;
+    height: 100px;
+  
+}
+
+.icons {
+    /* position: relative;
+    float: right;
+    align-items: flex-end;
+    left: 0px;
+    bottom: 0px;
+    justify-content: flex-end; 
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 200px;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    align-items: center;
+    display:inline-flex; */
+    /* font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    overflow-x: auto;
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 11px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position:absolute;
+    right:0px;
+    margin-right: 35px;
+
+}
+.renderer,.notif,.name{
+    margin-right: 10px;
+}
+/* .icons div{
+    display: inline;
+    
+} */
+.record,.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .icons,.headers{
+    display: flex;
+    flex-direction: column;
+   
+    
+} */
+
+
+.btn {
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 3PX 3px;
+    justify-content: space-around;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 20px;
+
+}
+
+
+
+
+
+/* .icon {
+    position: fixed;
+    margin-right: 80px;
+
+} */
+
+button .fas {
+    margin-bottom: 63px;
+    margin-right: 20px;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 30px;
+    justify-content: space-around;
+    /* margin: auto; */
+    /* background-color: aqua; */
+    display: block;
+    position: relative;
+    top: 80px;
+    /* left: 180px; */
+    overflow-x: scroll;
+     margin-right: 15px;
+    
+
+    
+   
+    
+}
+
+
+.btn{
+    margin-bottom:20px;
+    background-color: #615959;
+    color: white;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #786f6f;
+
+
+}
+
+.pictures:hover {
+    cursor: pointer;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+icons{
+    display: flex;
+
+    
+}
+
+.vertical{
+   position: absolute;
+   bottom:0px;
+   position: fixed;
+   /* height: 490px; */
+   width: 200px;
+   font-size: 14px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   /* height: calc(100vh-300px); */
+  bottom:40px;
+}
+.pictures,.vertical{
+    display: flex;
+    flex-direction: row;
+}
+
+.pictures,.headers{
+    display: flex;
+    flex-direction: row;
+}
+.video-preview{
+    line-height:1.5rem;
+    /* height:500px ;
+    width:500px ; */
+    
+    grid-template-columns: repeat(3,1fr);
+    display: inline-block;
+   
+
+}
+.under{
+    display: flex;
+    /* flex-direction: row; */
+    /* vertical-align:text-bottom; */
+}
+.small {
+    height:50px ;
+    width: 50px;
+    border-radius: 25px;
+    display: block;
+
+
+}
+img,p{
+    display: flex;
+    flex-direction: row;
+  
+
+}
+.text{
+    display: flex;
+}
+.paragraph{
+    font-size: 14px;
+    color: white;
+}
+/* .icon,.recorder{
+    position: absolute;
+    top:0px;
+} */
+/* .
+ */
+.research{
+    
+   display:flex;
+   align-items:center;
+   gap:0px 11px;
+
+
+
+}
+.video-preview a img{
+    height: 200px;
+    width: 318px;
+
+}
+
+   
+.hidden-content button{
+    border-radius:18px ;
+    margin-top: 10px;
+    border: none;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    display:flex;
+    align-items:center;
+    gap:0px 11px;
+    width: 190px;
+    justify-content: center;
+ 
+  
+}
+.hidden-content{
+    display:none;
+
+}
+.views{
+    display:flex;
+    align-items:center;
+    gap:0px 11px;
+ 
+
+}
+.video-preview:hover .hidden-content{
+    display: block;
+    border-radius: 7px;
+    display:flex;
+    flex-direction: column;
+}
+/* text:hover{
+    background-color: grey;
+    height: 500px;
+    width: 500px;
+
+} */
+
+
+.video-preview:hover{
+    padding:10px;
+    background-color: rgb(42, 34, 34);
+    border-radius:18px ;
+
+}
+.video-preview:hover button{
+   
+    background-color:  #615959;
+     color: white;
+     font-weight: bold;
+     padding-left: 10px;
+     margin-right:10px;
+
+}
+
+.youtube h2{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+i{
+    list-style: none;
+}
+.hidden-content {
+  
+ 
+    
+    /* height:100px ; */
+    /* width: fit-content; */
+    /* background-color: grey; */
+}
+/* .paragraph:hover{
+     background-color: grey;
+} */
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+video,img{
+    border-radius: 15px;
+}
+.images{
+    height:50px ;
+    width: 50px;
+    border-radius: 30px;
+    display: block;
+    margin-bottom:10px ;
+    
+}
+.finale p{
+    display:flex;
+   align-items:center;
+   gap:0px 11px;
+}
+h2{
+    margin-bottom: 10px;
+}
